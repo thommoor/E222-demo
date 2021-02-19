@@ -12,7 +12,7 @@ app.add_api("cpu.yaml")
 # create a URL route in our application for "/"
 @app.route("/")
 def home():
-    msg = {"msg": "It's working!"}
+    msg = {"msg": "It's working, Hayden!"}
     return jsonify(msg)
 
 
